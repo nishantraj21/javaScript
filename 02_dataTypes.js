@@ -26,3 +26,8 @@ console.log(typeof null) // object
 console.log(typeof undefined) //undefined
 
 bigInt = 5459585979999844n
+
+//single line comment
+/* multiple 
+line
+comment */
