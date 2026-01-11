@@ -26,6 +26,8 @@ console.log(booleanIsLoggedIn);
 // "name" => true
 // "" => false
 
+
+
 let number = 21
 let stringNumber = String(number)
 console.log(stringNumber)
