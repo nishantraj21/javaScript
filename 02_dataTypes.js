@@ -19,13 +19,18 @@ let isLogedIn = false
 // Undefined =>
 // symbol => unique
 
+const id1 = Symbol("id");
+console.log(id1);
+
+
 // object
 
 console.log(typeof "hello")
 console.log(typeof null) // object
 console.log(typeof undefined) //undefined
 
-bigInt = 5459585979999844n
+let bigInt = 5459585979999844n
+console.log(bigInt);
 
 //single line comment
 /* multiple 
