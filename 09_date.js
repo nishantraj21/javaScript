@@ -17,5 +17,6 @@ console.log(now.getSeconds());
 const newDate = Date.now();
 console.log(newDate); // date in millisecond
 
-const dates = new Date(1776818164916);
+const dates = new Date(1776827365278);
 console.log(dates);
+console.log(Date(0));
