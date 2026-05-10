@@ -48,17 +48,18 @@ const calculator =
     input1: 25,
     input2: 47,
     name: "calc",
-    //greeting: function(){
-    //    console.log(`welcome! on this ${this.name}`);
-    //    return 2026;
-    //},
+    greeting: function(){
+        console.log(`welcome! on this ${this.name}`);
+        return 2026;
+    },
     address: {
         city: "patna",
         state: "Bihar"
     } 
 
 }
-
+console.log(calculator);
+/*
 //console.log(calculator.greeting());
 console.log(calculator.address.city);
 
@@ -67,10 +68,10 @@ console.log(calculator.address.city);
 
 //deep copy 
 // let temp = {};
-// Object.assign(temp, calculator);
+// Object.assign(temp, calculator);//shallow copy
 // console.log(temp);
 
 const user2 = structuredClone(calculator);
 user2.address.city = "Aurangabad";
 console.log(calculator); // in deep clone dont clone functions and DOM elements.
-console.log(user2);
+console.log(user2);*/

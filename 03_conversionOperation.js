@@ -45,10 +45,10 @@ let str2 = " world"
 let str3 = str1 + str2;
 console.log(str3)
 
-console.log(1 + 1 + "2");
-console.log("1" + 1 + 2);
+console.log(1 + 1 + "2");//22
+console.log("1" + 1 + 2);//112
 
-console.log(+true);
-console.log(true);
+console.log(+true);//1
+console.log(true);//true
 
 

@@ -24,3 +24,6 @@ let a = 10
 let b = "times"
 let c = "Hello!";
 console.log(a,b,c);
+
+// let -> block scope
+// var -> functional scope
