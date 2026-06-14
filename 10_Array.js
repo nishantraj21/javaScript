@@ -38,6 +38,8 @@ for (let num of arr)
 let arr1=[10,20,30,40,50,60,35,70];
 let arr2 = arr1;
 arr2 = arr1.slice(2,4)
+console.log(arr2);
+
 console.log(arr1); // not slice in original array
 const arr3= arr1.splice(2,5,"nishant");//slice in original array. here 2 to 5 removed and "nishant" added
 console.log(arr1);

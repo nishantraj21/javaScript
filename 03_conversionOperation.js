@@ -1,11 +1,11 @@
 let score = "35abc"
 
-console.log(typeof score);
-console.log(typeof(score));
+console.log(typeof score); //string
+console.log(typeof(score));// string
 
 let valueInNumber = Number(score)
-console.log(valueInNumber);
-console.log(typeof valueInNumber);
+console.log(valueInNumber);//NaN
+console.log(typeof valueInNumber);//number
 
 /*
 if score = 

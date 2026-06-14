@@ -64,7 +64,7 @@ console.log(calculator);
 console.log(calculator.address.city);
 
 // shallow copy
-// const user2 = {...user}; // Indipendent copy but it will not correct nested object
+// const user2 = {...user}; // Independent copy but it will not correct nested object
 
 //deep copy 
 // let temp = {};
