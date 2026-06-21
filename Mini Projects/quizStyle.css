@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+    justify-content: center;
+    display: flex;
+}
+
+.container{
+    background-color: rgb(46, 171, 180);
+    border-color: red;
+    border-width: 10px;
+    height: 600px;
+    width: 400px;
+    padding: 50px;
+    margin: 50px;
+
+}
+
